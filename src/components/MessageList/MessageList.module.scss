@@ -1,0 +1,51 @@
+.wrapper {
+  height: 100%;
+}
+
+.list {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(244, 184, 58, 0.5) transparent;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+}
+
+.rowMe {
+  justify-content: flex-end;
+}
+
+.bubble {
+  max-width: 60%;
+  background: #222a44;
+  border-radius: 16px 16px 16px 4px;
+  padding: 10px 14px;
+  font-size: 14px;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.bubbleMe {
+  background: linear-gradient(140deg, #f4b83a, #f0823f);
+  color: #12131a;
+  border-radius: 16px 16px 4px 16px;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.time {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.bubbleMe .time {
+  color: rgba(18, 19, 26, 0.7);
+}
